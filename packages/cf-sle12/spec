@@ -1,0 +1,4 @@
+---
+name: cf-sle12
+files:
+- rootfs/cf-sle12*.tar.gz

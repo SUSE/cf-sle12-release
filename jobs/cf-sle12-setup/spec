@@ -1,0 +1,13 @@
+---
+name: cf-sle12-setup
+
+templates:
+  pre-start: bin/pre-start
+  trusted_ca.crt.erb: config/certs/trusted_ca.crt
+
+packages:
+  - cf-sle12
+
+properties:
+  cf-sle12.trusted_certs:
+    description: "certficates to add to the rootfs trust store"

@@ -1,0 +1,4 @@
+set -e -x
+
+echo "Copying rootfs"
+cp rootfs/cf-sle12*.tar.gz ${BOSH_INSTALL_TARGET}/cf-sle12.tar.gz
