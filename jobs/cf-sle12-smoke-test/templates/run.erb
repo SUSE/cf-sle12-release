@@ -2,7 +2,7 @@
 
 set -ex
 
-CERTS_DIR=/var/vcap/packages/cf-sle12/rootfs/usr/local/share/ca-certificates/
+CERTS_DIR=/var/vcap/packages/cf-sle12/rootfs/usr/share/pki/trust/
 CERTS=/var/vcap/jobs/cf-sle12-smoke-test/config/certs/trusted_ca.crt
 CERTS_COUNT=`grep "END CERTIFICATE" $CERTS | wc -l`
 FILE_COUNT=`find $CERTS_DIR -type f | wc -l`
