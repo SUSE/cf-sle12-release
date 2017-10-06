@@ -11,14 +11,12 @@ if [ ! -d $ROOTFS_DIR ]; then
   tar -pzxf $ROOTFS_PACKAGE/cf-sle12.tar.gz -C $ROOTFS_DIR
 fi
 
-rm -f $ROOTFS_DIR/usr/local/share/ca-certificates/*
-
 # Split files on '----END CERTIFICATE-----' and increment our file counter by 1
 pushd $ROOTFS_DIR
   awk -v n=1 '
     split_after == 1 {n++;split_after=0}
     /-----END CERTIFICATE-----/ {split_after=1}
-    NF {print > "usr/local/share/ca-certificates/trusted_ca_" n ".crt"}' < $CONF_DIR/certs/trusted_ca.crt
+    NF {print > "etc/pki/trust/anchors/trusted_ca_" n ".crt"}' < $CONF_DIR/certs/trusted_ca.crt
 popd
 
 # have to set TMPDIR so we can mktemp inside the chrooted subshell
