@@ -1,5 +1,5 @@
 ---
 rootfs/cf-sle12.tar.gz:
-  object_id: cf-sle12-1.0.1-40.4-8e5ab2f.tar.gz
-  sha: 8e5ab2f4bd38f17e5d298da374535df32e277da0
-  size: 313040892
+  object_id: cf-sle12-1.0.1-40.5-16b4ea6.tar.gz
+  sha: 16b4ea6d60f03099abab739e4c3d0dbbcfbf84a3
+  size: 312928843
