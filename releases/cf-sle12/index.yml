@@ -7,6 +7,8 @@ builds:
     version: 1.51.92
   7b71f34c-9497-4134-7d73-91f76a8029af:
     version: 1.51.90
+  9e20af38-6889-46b9-683e-9c3797dab0f2:
+    version: 1.51.94
   e255551a-cfa0-42b7-7c3f-4808789f0d7f:
     version: 1.51.93
 format-version: "2"
