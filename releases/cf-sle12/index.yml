@@ -57,6 +57,8 @@ builds:
     version: 1.51.125
   bd72e154-84de-4e00-7074-3f89d368e43f:
     version: 1.51.120
+  bdb19a59-47f1-40cd-4179-7d8430fd7c00:
+    version: 1.51.132
   bf31dca4-ee36-49db-5797-f086b9f27231:
     version: 1.51.113
   c657c1f8-ec84-4485-44f6-d143f6c186ba:
