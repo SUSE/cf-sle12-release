@@ -1,0 +1,23 @@
+name: cf-sle12
+version: 1.52.3
+commit_hash: 56a3bd4
+uncommitted_changes: false
+jobs:
+- name: cf-sle12-setup
+  version: b8d7a6d0ba6e92ad323622bd99791aba058da67a
+  fingerprint: b8d7a6d0ba6e92ad323622bd99791aba058da67a
+  sha1: a2c59d0a8f83e6b6be6e090ccb559f4606928663
+- name: cf-sle12-smoke-test
+  version: 77e678d5dc91eb56937f82972e85d18ea4106f82
+  fingerprint: 77e678d5dc91eb56937f82972e85d18ea4106f82
+  sha1: 809b0fa05eb22974b84a6c3056faa08376e32d6b
+packages:
+- name: cf-sle12
+  version: 1b1dc72d2d40b785114f81ef169982cd451221fb
+  fingerprint: 1b1dc72d2d40b785114f81ef169982cd451221fb
+  sha1: 2e386b56aff8a784b2ce5bbaa2a3e64f768ae1a2
+  dependencies: []
+license:
+  version: abf10740337503626834c1ca5ec07ec2228831f6
+  fingerprint: abf10740337503626834c1ca5ec07ec2228831f6
+  sha1: 634b1107d9888a4fefb73d133a0dabca05de4d11
